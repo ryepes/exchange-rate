@@ -1,0 +1,32 @@
+<!-- <p>This component demonstrates fetching data from the server.</p> -->
+
+<p *ngIf="!exchangesRates"><em>Loading...</em></p>
+<div class="jumbotron">
+  <p>$</p>
+  <input type="number" [(ngModel)]='USD' placeholder="USD" class="form-control" id="txtUSD" />
+  <p>€</p>
+  <input type="text" [(ngModel)]='EUR' placeholder="EUR" class="form-control" id="txtEUR" disabled />
+  <br>
+  <p><a class="btn btn-success" (click)="calculateExchangeRate($event)">Calculate &raquo;</a></p>
+</div>
+<h5>Currency rates</h5>
+<table class='table table-hover table-bordered table-striped' *ngIf="exchangesRates">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Rate</th>
+      <th>Descrition</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of exchangesRates">
+      <td>{{ item.id }}</td>
+      <td>{{ item.name }}</td>
+      <td>{{ item.rate || currency }}</td>
+      <td>{{ item.description }}</td>
+      <td>{{ item.date }}</td>
+    </tr>
+  </tbody>
+</table>
