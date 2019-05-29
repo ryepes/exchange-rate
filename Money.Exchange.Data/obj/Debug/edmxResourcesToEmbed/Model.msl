@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ExchangeRatesModelStoreContainer" CdmEntityContainer="ExchangeRatesEntities">
+    <EntitySetMapping Name="Rates">
+      <EntityTypeMapping TypeName="ExchangeRatesModel.Rates">
+        <MappingFragment StoreEntitySet="Rates">
+          <ScalarProperty Name="rId" ColumnName="rId" />
+          <ScalarProperty Name="rName" ColumnName="rName" />
+          <ScalarProperty Name="rRate" ColumnName="rRate" />
+          <ScalarProperty Name="rDescription" ColumnName="rDescription" />
+          <ScalarProperty Name="rDate" ColumnName="rDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,11 @@
+E:\Dev\Angular\Money.Exchange\Money.Exchange.Model\bin\Debug\Money.Exchange.Model.dll
+E:\Dev\Angular\Money.Exchange\Money.Exchange.Model\bin\Debug\Money.Exchange.Model.pdb
+E:\Dev\Angular\Money.Exchange\Money.Exchange.Model\obj\Debug\Money.Exchange.Model.csproj.CoreCompileInputs.cache
+E:\Dev\Angular\Money.Exchange\Money.Exchange.Model\obj\Debug\Money.Exchange.Model.dll
+E:\Dev\Angular\Money.Exchange\Money.Exchange.Model\obj\Debug\Money.Exchange.Model.pdb
+D:\Dev\angular\Money.Exchange\Money.Exchange.Model\bin\Debug\Money.Exchange.Model.dll
+D:\Dev\angular\Money.Exchange\Money.Exchange.Model\bin\Debug\Money.Exchange.Model.pdb
+D:\Dev\angular\Money.Exchange\Money.Exchange.Model\obj\Debug\Money.Exchange.Model.csprojAssemblyReference.cache
+D:\Dev\angular\Money.Exchange\Money.Exchange.Model\obj\Debug\Money.Exchange.Model.csproj.CoreCompileInputs.cache
+D:\Dev\angular\Money.Exchange\Money.Exchange.Model\obj\Debug\Money.Exchange.Model.dll
+D:\Dev\angular\Money.Exchange\Money.Exchange.Model\obj\Debug\Money.Exchange.Model.pdb
