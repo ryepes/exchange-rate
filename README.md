@@ -1,3 +1,3 @@
 # exchange-rate
 
-Application to calculate echange rate value.
+Application to calculate exchange rate value.
